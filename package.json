@@ -1,0 +1,23 @@
+{
+  "name": "fenzi-marketing",
+  "version": "1.0.0",
+  "description": "Dependencies for Fenzi Marketing.",
+  "scripts": {
+    "build:blocks": "cd web/wp-content/plugins/fenzi-wp-blocks/ && npm run build",
+    "build:dev": "npx mix && npm run build:blocks",
+    "watch:dev": "npx mix watch",
+    "build:prod": "npx mix --production && npm run build:blocks",
+    "test:local:e2e": "wp-scripts test-e2e --config ./tests/e2e-tests/config/local.jest.config.js",
+    "test:dev:e2e": "wp-scripts test-e2e --config ./tests/e2e-tests/config/dev.jest.config.js"
+  },
+  "author": "HWD Developers",
+  "devDependencies": {
+    "@wordpress/e2e-test-utils": "^8.5.0",
+    "@wordpress/e2e-tests": "^5.5.0",
+    "@wordpress/scripts": "^24.5.0",
+    "laravel-mix": "^6.0.49",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.56.0",
+    "sass-loader": "^12.6.0"
+  }
+}

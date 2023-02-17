@@ -1,0 +1,136 @@
+:root {
+    --hwd-primary-color: #00afaa;
+    --hwd-primary-color-dark: #0f7774;
+    --hwd-purple-color: #8347ad;
+    --hwd-dark-color: #0f0e0f;
+    --hwd-off-white-color: #e5e1e6;
+    --hwd-top-nav-link-font-size: 0.85rem;
+    --hwd-sub-nav-link-font-size: 0.95rem;
+    --hwd-sub-nav-link-font-size-mobile: 1.35rem;
+    --hwd-btn: 0.95rem;
+    --hwd-card-width: 85%;
+    --hwd-card-width-mobile: 85%;
+}
+
+/** perhaps can remove !important after using scss */
+.ast-container {
+    max-width:none!important;
+    padding:0!important;
+}
+.hwd-full-width-page {
+    max-width:none!important;
+    padding:0!important;
+    margin:0!important;
+}
+
+.hwd-full-width-page-dark {
+    max-width:none!important;
+    padding:0!important;
+    margin:0!important;
+    background: var(--hwd-dark-color);
+    position: relative;
+}
+
+.hwd-full-width-page-dark .entry-title{
+    color: white;
+    font-family: KanitExtraBoldItalic;
+    width: var(--hwd-card-width);
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.hwd-left-sidebar-basic-page{
+    padding-top: var(--wp--custom--ast-default-block-top-padding)!important;
+    margin: 0!important;
+}
+
+.hwd-left-sidebar-basic-page .entry-title{
+    color: var(--ast-global-color-0)!important;
+    font-family: KanitExtraBoldItalic;
+    padding-right: calc(var(--wp--custom--ast-default-block-right-padding) / 2);
+    padding-left: calc(var(--wp--custom--ast-default-block-left-padding) / 2);
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+}
+
+.hwd-full-width-page-dark-header{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/wp-content/themes/astra-child/assets/images/FDSA_CourseOverview_Testimonials.jpg);
+}
+
+.hwd-full-width-page-dark-content{
+    margin-top:-250px;
+    overflow: auto;
+}
+
+.hwd-content-card{
+    background: white;
+    box-shadow: 1px 1px 4px 2px rgb(0 0 0 / 25%);
+    margin-bottom:var(--wp--custom--ast-default-block-bottom-padding)!important;
+    width: var(--hwd-card-width);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: none!important;
+    padding-top: var(--wp--custom--ast-default-block-top-padding);
+    padding-right: var(--wp--custom--ast-default-block-right-padding);
+    padding-bottom: var(--wp--custom--ast-default-block-bottom-padding);
+    padding-left: var(--wp--custom--ast-default-block-left-padding);
+    border-bottom: 6px solid var(--ast-global-color-1);
+}
+
+.hwd-sidebar-page-container{
+    display: flex;
+    width:100%;
+}
+.hwd-left-sidebar-container{
+    width:25%!important;
+}
+.hwd-left-sidebar-adjacent-container{
+    width:75%!important;
+}
+
+
+@media (max-width: 1200px) {
+
+    .hwd-full-width-page-dark .entry-title{
+        width: var(--hwd-card-width-mobile);
+    }
+
+    .hwd-left-sidebar-basic-page .entry-title{
+        padding-right: calc(var(--wp--custom--ast-default-block-right-padding) / 2);
+        padding-left: calc(var(--wp--custom--ast-default-block-left-padding) / 2);
+    }
+
+    .hwd-content-card{
+        box-shadow: none;
+        width: var(--hwd-card-width-mobile);
+    }
+
+    .hwd-menu-container{
+        padding: 0 20px;
+    }
+
+    .hwd-sidebar-page-container{
+        display: block;
+    }
+
+    .hwd-left-sidebar-container{
+        display:none;
+    }
+
+    .hwd-left-sidebar-adjacent-container{
+        width:100%!important;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+}

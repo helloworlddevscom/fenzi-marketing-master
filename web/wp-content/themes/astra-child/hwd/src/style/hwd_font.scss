@@ -1,0 +1,91 @@
+@font-face {
+    font-family: InterRegular;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Inter/static/Inter-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: InterMedium;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Inter/static/Inter-Medium.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: InterBold;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Inter/static/Inter-Bold.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: RobotoSlabBold;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Roboto_Slab/static/RobotoSlab-Bold.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: RobotoSlabExtraBold;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Roboto_Slab/static/RobotoSlab-ExtraBold.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: KanitExtraBoldItalic;
+    src: url(/wp-content/themes/astra-child/assets/fonts/Kanit/Kanit-ExtraBoldItalic.ttf);
+    font-weight: normal;
+}
+
+body{
+    font-family: 'InterRegular', sans-serif;
+}
+
+.font-roboto-slab-bold{
+    font-family: 'RobotoSlabBold', sans-serif;
+}
+
+.font-roboto-slab-extra-bold{
+    font-family: 'RobotoSlabExtraBold', sans-serif;
+}
+
+.font-kanit-extra-bold-italic{
+    font-family: 'KanitExtraBoldItalic', sans-serif;
+}
+
+.text-color-astra-0{
+    color:var(--ast-global-color-0)!important;
+}
+
+.text-color-astra-1{
+    color:var(--ast-global-color-1)!important;
+}
+
+.text-color-astra-2{
+    color:var(--ast-global-color-2)!important;
+}
+
+.text-color-astra-3{
+    color:var(--ast-global-color-3)!important;
+}
+
+.text-color-astra-4{
+    color:var(--ast-global-color-4)!important;
+}
+
+.text-color-astra-5{
+    color:var(--ast-global-color-5)!important;
+}
+
+.text-color-astra-6{
+    color:var(--ast-global-color-6)!important;
+}
+
+.text-color-astra-7{
+    color:var(--ast-global-color-7)!important;
+}
+
+.text-color-astra-8{
+    color:var(--ast-global-color-8)!important;
+}
+
+.text-all-caps{
+    text-transform: uppercase;
+}
